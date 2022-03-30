@@ -8,12 +8,14 @@ Torchvision 0.7.0
 
 Before training and test, please revise the setting in constants.py
 ## Training
+```
 python -m visdom.server
 python train.py
-
+```
 ## Test
+```
 python test.py
-
+```
 ## Experiment Results
 ![image](https://user-images.githubusercontent.com/79884379/160744906-b3d58e54-3497-4a1c-a791-88dffd7fb673.png)
 ![image](https://user-images.githubusercontent.com/79884379/160744916-fd3940e3-3820-4755-a670-e2774b1ad8ec.png)
